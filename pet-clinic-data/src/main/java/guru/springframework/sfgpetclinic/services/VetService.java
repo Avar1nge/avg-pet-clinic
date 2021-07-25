@@ -7,7 +7,7 @@ import java.util.Set;
 /**
  * Created by jt on 7/18/18.
  */
-public interface VetService {
+public interface VetService extends CrudService<Vet, Long> {
 
     Vet findById(Long id);
 
